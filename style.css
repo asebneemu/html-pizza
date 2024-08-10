@@ -43,6 +43,7 @@ header h1 {
   margin: 0;
   font-size: 4.3rem;
   font-family: "Roboto Condensed";
+  font-weight: lighter;
 }
 
 header .btn {
@@ -99,19 +100,18 @@ header .btn {
   padding: 3rem;
 }
 
-.siparisver-item {
-}
 
 .siparisver-content .item1 {
   padding-left: 2.5rem;
   align-content: center;
-  width: 37.5rem;
-  height: 31.5rem;
+  width: 45rem;
+  height: 36rem;
   margin: 0;
   border-radius: 1.7rem;
   background-color:#CE2829;
   background-image: url("assets/iteration-1/kutu1.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .siparisver-item h1 {
@@ -132,6 +132,69 @@ header .btn {
   font-size: 1.4rem;
   padding: 1.3rem 2.6rem;
 }
-.siparisver-item .item2 {
+.siparisver-content .item2 {
+  padding-left: 2.5rem;
+  align-content: center;
+  width: 45rem;
+  height: 27rem;
+  margin-top: 3rem;
+  border-radius: 1.7rem;
+  background-color: #292929;
+  background-position:right;
+  background-image: url("assets/iteration-1/kutu2.png");
+  background-repeat: no-repeat;
+}
+
+.item2 h2 {
+  font-size: 3.7rem;
+  color: white;
+}
+.siparisver-content .item3 {
+  padding-left: 2.5rem;
+  align-content: center;
+  width: 45rem;
+  height: 27rem;
+  margin-top: 3rem;
+  border-radius: 1.7rem;
+  background-color: #fae8c9;
+  background-position: right, center;
+  background-image: url("assets/iteration-1/kutu4.png"),url("assets/iteration-1/kutu3.png");
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+}
+.item3 h2 {
+  font-size: 3.7rem;
+}
+.menu-alt-section {
+  margin-top: -2rem;
+  background-color:#FAF7F2;
+  padding: 5rem;
+}
+.menu-alt-content h2 {
+  font-size: 3.7rem;
+  font-family: "Satisfy";
+  margin: 3rem;
+  text-align: center;
+  color: #CE2829;
+}
+.menu-alt-content p {
+  text-align: center;
+  font-size: 6rem;
+}
+.menu-alt-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   
+}
+.menu-alt-item {
+  display: flex;
+  margin: 2rem 0;
+  width: 30%;
+  border: none;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1.5rem;
+  padding-left: 0;
+  background-color: white;
 }
