@@ -67,6 +67,7 @@ header .btn {
   background-size: cover; 
   background-position: center; 
   border-radius: 0 0 1.5rem 1.5rem;
+  background-repeat: no-repeat;
 }
 
 .menu-section {
@@ -140,7 +141,7 @@ header .btn {
   margin-top: 3rem;
   border-radius: 1.7rem;
   background-color: #292929;
-  background-position:right;
+  background-position: right;
   background-image: url("assets/iteration-1/kutu2.png");
   background-repeat: no-repeat;
 }
@@ -275,4 +276,55 @@ footer h2 {
   justify-content: space-between;
   border-top: 2px solid #5F5F5F;
   padding: 2rem;
+}
+
+/* RESPONSİVE */
+
+.body {
+  max-width: 571px;
+  margin: auto;
+}
+.body header .btn {
+  font-size: 1.3rem;
+  padding: 0.8rem 2.4rem;
+}
+.body header .img-pizza {
+  height: 50vh;
+}
+.body .menu-item {
+  width: 10vw;
+}
+.body .siparisver-content .item1 {
+  width: 90%;
+  height: 80%;
+  padding: 2rem;
+}
+.body .item1 h1 {
+  font-size: 4rem;
+}
+.body .siparisver-content .item2  {
+  width: 90%;
+  height: 70%;
+  padding: 2rem;
+  background-size: 20rem;
+}
+.body .item2 h2, .body .item3 h2 {
+  font-size: 2.5rem;
+}
+.body .siparisver-content .item3 {
+  width: 95%;
+  height: 18rem;
+  background-size: 20rem, auto;
+}
+.body .menu-alt-content h2 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+.body .menu-alt-content p {
+  font-size: 2rem;
+}
+
+.body .menu-alt-item {
+  margin: 2rem 15%;
+  padding: auto 6rem;
 }
