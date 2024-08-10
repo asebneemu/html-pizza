@@ -189,12 +189,90 @@ header .btn {
 }
 .menu-alt-item {
   display: flex;
-  margin: 2rem 0;
-  width: 30%;
+  margin: 2rem 8%;
+  width: 15%;
   border: none;
   justify-content: center;
   gap: 1rem;
   border-radius: 1.5rem;
-  padding-left: 0;
+  padding: 1.2rem 0;
   background-color: white;
+}
+
+.box-section {
+  justify-content: center;
+  display: flex;
+  background-color: #FAF7F2;
+  align-items: center;
+}
+
+.box-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.box-content p {
+  font-size: 2rem;
+}
+.box-yazi {
+  display: flex;
+  justify-content: space-between;
+}
+.sol-yazi {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #292929;
+  color: white;
+  padding: 4rem 6rem;
+  gap: 2rem;
+}
+
+footer h2 {
+  font-size: 3rem;
+}
+
+.iletisim-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.iletisim-content img {
+  width: 5rem;
+}
+.iletisim-content p {
+  font-size: 1.4rem;
+}
+.last-menu h3, .insta h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.last-menu p {
+  font-size: 1.5rem;
+}
+.insta-resimler {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.insta-resimler img {
+  width: 15rem;
+}
+
+.last-part {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #5F5F5F;
+  padding: 2rem;
 }
