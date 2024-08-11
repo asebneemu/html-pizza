@@ -71,6 +71,7 @@ header .btn {
 }
 
 .menu-section {
+  font-family: "Barlow";
   margin: 2rem;
 }
 
@@ -199,6 +200,11 @@ header .btn {
   padding: 1.2rem 0;
   background-color: white;
 }
+.menu-alt-item:hover {
+  background-color: #292929;
+  color: white;
+  margin: auto;
+}
 
 .box-section {
   justify-content: center;
@@ -325,6 +331,42 @@ footer h2 {
 }
 
 .body .menu-alt-item {
-  margin: 2rem 15%;
-  padding: auto 6rem;
+  width: 30%;
+  margin: 2rem 5%;
+  padding: auto 3rem;
+}
+.body .menu-alt-item:hover {
+  background-color: #292929;
+  color: white;
+  width: 25%;
+  
+}
+.body .menu-alt-section {
+  margin: 0;
+  padding: 0;
+}
+.body .box-section {
+  flex-direction: column;
+}
+
+.body .iletisim-content img {
+  width: 10%;
+  height: 30%;
+}
+.body .iletisim-content p {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+}
+
+.body .last-menu h3, .body .insta h3 {
+  font-size: 1.8rem;
+}
+.body .last-menu p {
+  font-size: 1.2rem;
+}
+.body .insta-resimler img {
+  width: 30%;
+}
+.body .last-part {
+  padding: 0;
 }
